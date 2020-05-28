@@ -21,6 +21,8 @@ app.post('/', function(req, res) {
     return res.end()
   }
 
+  return console.log(message);
+
   if (message.text.toLowerCase().indexOf('marco') < 0) {
     // In case our message does not have the word marco in it, do nothing and return an empty response
     return res.end()
