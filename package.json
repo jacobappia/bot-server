@@ -7,7 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start" : "node index.js"
   },
-  "author": "",
+  "engines": {
+    "node": "12.x"
+  },
+  "author": "Jacob Appia",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.19.2",

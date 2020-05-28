@@ -45,7 +45,8 @@ app.post('/', function(req, res) {
 })
 
 // Finally, start our server
-app.listen(3000, function() {
-  console.log('Telegram app listening on port 3000!')
+const port = process.env.PORT || 3000
+app.listen(port, function() {
+  console.log('Telegram app listening on port '+port)
 })
 
