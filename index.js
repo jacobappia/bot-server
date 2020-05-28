@@ -15,7 +15,7 @@ app.post('/', function(req, res) {
   const { message } = req.body
 
   //Each message contains "text" and a "chat" object, which has an "id" which is the chat id
-console.log(mesage);
+console.log(message);
 
   if (!message || message.text === undefined || message.chat === undefined) {
     // In case a message is not present do nothing and return an empty response
